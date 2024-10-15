@@ -5,6 +5,7 @@ link.href = "https://developer.mozilla.org";
 const sect = document.querySelector("section");
 const para = document.createElement("p");
 para.textContent = "We hope that you enjoyed the ride.";
+para.setAttribute("class", "highlight")
 
 sect.appendChild(para);
 
